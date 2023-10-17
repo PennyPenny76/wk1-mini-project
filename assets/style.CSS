@@ -7,14 +7,67 @@ body {
   }
 
 .nav-bar {
-    background-color: darkgreen;
+    background-color: #285133;
     color: white;
     text-align: right;
     padding:10px;
-    border-bottom: 2px solid orange;
+    border-bottom: 2px solid #CCA384;
   }
-
 .nav-elements {
     margin-left: 30px;
     color: white;
     }
+.main-section {
+    background-color: #fcf5e6;
+    color: black;
+    text-align: center;
+    border-bottom: 2px solid #CCA384;
+    padding:4px;
+  }
+.Contact-me {
+    background-color: #edc8ae;
+    color: black;
+    padding:4px;
+    text-align: center;
+}
+.form {
+    border:1px solid #a8876e;
+    width: 30%;
+    padding:10px;
+    margin-top:20px;
+    margin-bottom:20px;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 20px;
+}
+.name {
+    margin-top: 5px;
+    margin-left: 10px;
+    margin-bottom: 5px;
+}
+
+.email {
+    margin-top: 5px;
+    margin-bottom:5px;
+}
+
+.button {
+    margin-top: 0px;
+    background-color:rgb(83, 58, 29);
+    color:white;
+    padding-top:5px;
+    padding-bottom:5px;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+.bottom-bar {
+    background-color: #285133;
+    color: white;
+    text-align: center;
+    border-bottom: 5px solid rgb(83, 58, 29);
+  }
+.bottom-text {
+    margin:0px;
+    padding:9px;
+}
