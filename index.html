@@ -4,37 +4,53 @@
 <head>
   <meta charset="UTF-8">
   <title>My Landing Page</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel="stylesheet" type="text/css" href="./assets/style.css">
 </head>
 
 <body>
-    <div class="nav-bar">
-        <a class="nav-elements" href="https://github.com/">Github</a>
-        <a class="nav-elements" href="https://github.com/">Portfolio</a>
-        <a class="nav-elements" href="pengyingtong@hotmail.com/">Contact</a>
-    </div>
+    <header>
+        <nav class="text-right">
+            <ul>
+            <li><a href="https://github.com/">Github</a></li> 
+            <li><a href="https://github.com/">Portfolio</a></li> 
+            <li><a href="pengyingtong@hotmail.com/">Contact</a></li> 
+            </ul>
+        </nav>
+    </header>
 
-    <div class="main-section">
-        <h1> My New Website</h1>
-        <img
-        src="./assets/image-1.png"
-        alt="My new website is coming soon"
-        />
-        <p>This is my new website, thank you for viewing. &#128516;</p>
-    </div>
+    <main>
+        <h1 class="text-center"> My New Website</h1>
+        <figure>
+            <img
+            src="./assets/image-1.png"
+            alt="My new website is coming soon"
+            />
+            <figcaption class="text-center">This is my new website, thank you for viewing. &#128516;</figcaption>
+        </figure>
+        <section id="contact">
+            <h2 class="text-center"> Contact me</h1>
+            <form>
+                <ul>
+                    <li>
+                        <label class="text-right" for="name">Name:</label>
+                        <input type="text" id="name" name="user-name">
+                    </li>
+                    <li>
+                        <label class="text-right" for="email">Email:</label>
+                        <input type="text" id="email" name="user-email" >
+                    </li>
+                </ul>
+                <div class="text-center">
+                    <button type="submit">SEND</button>
+                </div>
+            </form>
+        </section>
+    </main>
 
-    <div class="Contact-me">
-        <title><h2> Contact me</h1></title>
-        <div class="form">
-            <p class="name">Name:<input type="text" ></p>
-            <p class="email">Email:<input type="text" ></p>
-            <input class="button" type="button" value="send">
-        </div>
-    </div>
-
-    <div class="bottom-bar">
-        <p class="bottom-text">&copy My New Website Productions</p>
-    </div>
-
+    <footer class="text-center">
+        &copy My New Website Productions
+    </footer>
 
 </body>
+</html>
